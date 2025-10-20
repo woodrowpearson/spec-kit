@@ -1,0 +1,15 @@
+- name: superpowers
+  source: marketplace
+  repo: obra/superpowers-marketplace
+  version: '2025-10-12'
+  owners:
+  - eng-enablement@your-org.example
+  scopes:
+  - read:repo
+  - execute:skills
+  environments:
+  - dev
+  - stage
+  status: approved-with-guardrails
+  review_cycle: quarterly
+  notes: Bootstrap + curated Skills; keep CI gates enabled; ADRs for architecture.
